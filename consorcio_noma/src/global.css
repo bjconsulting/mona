@@ -52,6 +52,9 @@ h2 {
   margin: 0 0 5px 0;
 }
 
+img {
+  aspect-ratio: attr(width) / attr(height);
+}
 
 ul {
   list-style-type: circle;
