@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'nomaRed': '#8B0000'
+        'nomaRed': '#8B0000',
+        'nomaRedMinor': '#e60b0b'
       },
     },
   },
