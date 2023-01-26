@@ -28,7 +28,7 @@ export default component$(() => {
             </div>
 
             <div class="right hidden md:flex justify-center items-center h-full flex-1">
-                <img src={photo} alt="Consiga sua carreta!" height="auto" width="auto" class="h-full img"/>
+                <img src={photo} alt="Consiga sua carreta!" height="817px" width="610px" class="h-full img"/>
             </div>
         </div>
     )
