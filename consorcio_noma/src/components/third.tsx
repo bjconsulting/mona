@@ -5,7 +5,7 @@ export default component$(() => {
 
     return (
         <div class="bg-white">
-            <div class="flex flex-col max-w-[90vw] mx-auto py-[2em] text-center">
+            <div class="flex flex-col justify-center items-center max-w-[90vw] mx-auto py-[2em] text-center">
                 <h1 class="font-extrabold text-nomaRed text-4xl pb-4">
                     Todos os planos de venda em até 90 meses! <br />Confira:
                 </h1>
@@ -89,6 +89,11 @@ export default component$(() => {
                         </tbody>
                     </table>
                 </div>
+
+                <button class="font-bold bg-nomaRed text-white text-xl my-[2em] min-w-[300px] w-full max-w-[400px] py-3 rounded-md border border-white hover:border-transparent hover:bg-nomaRedMinor transition"
+                    onClick$={() => { window.scrollTo(0, 0); }}>
+                    Fale conosco!
+                </button>
             </div>
         </div>
     )

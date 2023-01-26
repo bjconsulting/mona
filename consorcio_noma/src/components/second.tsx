@@ -8,8 +8,8 @@ export default component$(() => {
     return (
         <div class="flex flex-col w-full bg-white">
             <div class="max-w-[90vw] mx-auto text-center py-[2em]">
-                <h2 class="font-extrabold text-[2.4em] text-nomaRed">Conseguir sua carreta nunca foi tão fácil.</h2>
-                <p class="font-normal text-[1.6em]"> As condições dos planos do Consórcio Nacional Noma são especiais e trazem as melhores alternativas do mercado. </p>
+                <h2 class="font-extrabold text-3xl md:text-[2.4em] text-nomaRed">Conseguir sua carreta nunca foi tão fácil.</h2>
+                <p class="font-normal text-xl md:text-[1.6em]"> As condições dos planos do Consórcio Nacional Noma são especiais e trazem as melhores alternativas do mercado. </p>
             </div>
             <div class="bg-nomaRed flex flex-col justify-center items-center py-[3em]">
                 <div class="flex flex-col md:flex-row justify-around items-center w-full text-center max-w-[90vw] mx-auto py-[2em]">
@@ -54,7 +54,8 @@ export default component$(() => {
                     </div>
                 </div>
 
-                <button class="font-bold text-white text-xl min-w-[300px] w-full max-w-[400px] py-3 rounded-md border border-white hover:border-transparent hover:bg-nomaRedMinor transition">
+                <button class="font-bold text-white text-xl min-w-[300px] w-full max-w-[400px] py-3 rounded-md border border-white hover:border-transparent hover:bg-nomaRedMinor transition"
+                    onClick$={() => { window.scrollTo(0, 0); }}>
                     Quero saber mais!
                 </button>
             </div>

@@ -15,8 +15,8 @@ export default component$(() => {
     return(
         <div class="max-w-[90vw] mx-auto flex justify-center items-center bg-nomaRed h-[85vh] w-full flex-none gap-[6em] text-center overflow-y-hidden">
             <div class="left flex flex-col items-center justify-center flex-1 ">
-                <h1 class="font-extrabold text-6xl text-white leading-[2em]"> Consórcio Noma </h1>
-                <h2 class="text-5xl font-light text-white"> preencha nosso formulário e realize seu sonho!  </h2>
+                <h1 class="font-extrabold text-4xl md:text-6xl text-white md:leading-[2em]"> Consórcio Noma </h1>
+                <h2 class="text-3xl md:text-5xl font-light text-white"> preencha nosso formulário e realize seu sonho!  </h2>
 
                 <form action="/contact" method="POST" class="mt-[3em] pb-10">
                     <input required id="name" type="text" placeholder='Nome' maxLength={20} onInput$={(e) => (data.name = (e.target as HTMLInputElement).value)} />
