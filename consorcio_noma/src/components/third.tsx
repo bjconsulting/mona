@@ -6,7 +6,7 @@ export default component$(() => {
     return (
         <div class="bg-white">
             <div class="flex flex-col justify-center items-center max-w-[90vw] mx-auto py-[2em] text-center">
-                <h1 class="font-extrabold text-nomaRed text-4xl pb-4">
+                <h1 class="font-extrabold text-nomaRed text-2xl md:text-4xl pb-4">
                     Todos os planos de venda em até 90 meses! <br />Confira:
                 </h1>
 

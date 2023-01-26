@@ -14,8 +14,8 @@ export default component$(() => {
             <div class="bg-nomaRed flex flex-col justify-center items-center py-[3em]">
                 <div class="flex flex-col md:flex-row justify-around items-center w-full text-center max-w-[90vw] mx-auto py-[2em]">
                     
-                    <div class="flex flex-col text-white justify-start items-center flex-1 basis-0 min-h-[500px] max-w-[400px]">
-                        <img src={price} alt="Menor custo do mercado" height="aut'o" width="160px" loading="lazy" class="mb-4"/>
+                    <div class="flex flex-col text-white justify-start items-center flex-1 basis-0 md:min-h-[500px] max-w-[400px] w-full">
+                        <img src={price} alt="Menor custo do mercado" height="auto" width="160px" loading="lazy" class="mb-4"/>
                         <h3 class="font-bold text-xl mb-4"> Menor custo do mercado </h3>
                         <ul class="text-lg font-normal text-left w-full">
                             <li> sem juros;</li>
@@ -26,7 +26,7 @@ export default component$(() => {
                         </ul>
                     </div>
 
-                    <div class="flex flex-col text-white justify-start items-center flex-1 basis-0 min-h-[500px] max-w-[400px]">
+                    <div class="flex flex-col text-white justify-start items-center flex-1 basis-0 md:min-h-[500px] max-w-[400px] w-full">
                         <img src={global} alt="Atuação efetivamente nacional" height="auto" width="160px" loading="lazy" class="mb-4" />
                         <h3 class="font-bold text-xl mb-4">Atuação efetivamente nacional</h3>
                         <ul class="text-lg font-normal text-left w-full">
@@ -36,7 +36,7 @@ export default component$(() => {
                         </ul>
                     </div>
 
-                    <div class="flex flex-col text-white justify-start items-center flex-1 basis-0 min-h-[500px] max-w-[400px]">
+                    <div class="flex flex-col text-white justify-start items-center flex-1 basis-0 md:min-h-[500px] max-w-[400px] w-full">
                         <img src={task} alt="Planos diferenciados" height="auto" width="160px" loading="lazy" class="mb-4" />
                         <h3 class="font-bold text-xl mb-4">Planos diferenciados</h3>
                         <ul class="text-lg font-normal text-left w-full">
@@ -45,7 +45,7 @@ export default component$(() => {
                         </ul>
                     </div>
 
-                    <div class="flex flex-col text-white justify-start items-center flex-1 basis-0 min-h-[500px] max-w-[400px]">
+                    <div class="flex flex-col text-white justify-start items-center flex-1 basis-0 md:min-h-[500px] max-w-[400px] w-full">
                         <img src={safe} alt="Planos diferenciados" height="auto" width="160px" loading="lazy" class="mb-4" />
                         <h3 class="font-bold text-xl mb-4">Transparência, segurança e credibilidade</h3>
                         <ul class="text-lg font-normal text-left w-full">
